@@ -2,6 +2,11 @@
 
 # Arduino Car by Pedro Lorenzo Rosario
 
+# My Mission
+
+
+I have always liked Programing, but now I have 
+
 # Components Needed:
 
 
@@ -14,7 +19,6 @@
 |BreadBoard       |7.77$	                     |	      Connect All the circuits to the components |
 
 
-![Alt text](https://components101.com/sites/default/files/components/Arduino-Nano.jpg")
 
 
 
