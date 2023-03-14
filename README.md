@@ -3,8 +3,15 @@
 # Arduino Car by Pedro Lorenzo Rosario
 
 There are some components needed to make this project possible
-1. A MicroController
-2. A 
+
+|        Component Name |Price                          |Purpose               |
+|----------------|-------------------------------|-----------------------------|
+|Arduino Uno (MicroController)|  9.99$ - 20.00$  |Is the brain of the Operation|
+|L293D Motor Driver Module    | 13.00$           |its the main driver and power for the motors|
+|battery Holder 4 cover slots |7.99$			 |to power Up the l293D and power up the Motor Wheels|
+|          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
 ## SmartyPants
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
