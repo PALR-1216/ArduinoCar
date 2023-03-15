@@ -3,6 +3,9 @@
 # Arduino Car by Pedro Lorenzo Rosario
 
 # My Mission
+<img src="https://www.imagelighteditor.com/img/bg-after.jpg"/>
+
+
 
 
 I have always liked Programing, but now I have 
