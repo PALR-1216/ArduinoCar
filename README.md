@@ -20,7 +20,15 @@ I absolutely adore programming, electronics, and robotics! There's something tru
 |BreadBoard       |7.77$	                     |	      Connect All the circuits to the components |
 
 
+# How to use a L293D Motor Driver Shield
 
+1. Connect the motor driver shield to your Arduino or compatible board. Make sure that the pins on the shield are properly aligned with the headers on the board.
+2. Connect the power supply to the motor driver shield. The L293D can handle up to 36V DC, but the voltage level should match the specifications of your motor.
+3. Connect your motors to the motor driver shield. The L293D has two channels, so you can connect up to two motors. Make sure that you connect the positive and negative terminals correctly.
+
+### Some Diagrams to Understand the L293D Driver
+<img src="https://2.bp.blogspot.com/-xWf_zFTGiHg/Vg2VVGX20LI/AAAAAAAAAz8/Gve48_08Xg0/s1600/Diagram_of_L293D.jpg"/>
+<img src ="https://udvabony.com/wp-content/uploads/2019/05/L293D-V1-Motor-Driver-Shield-Connections.jpg"/>
 
 
 
