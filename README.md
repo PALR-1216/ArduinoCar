@@ -36,3 +36,5 @@ I absolutely adore programming, electronics, and robotics! There's something tru
 
 # References
 
+https://www.deviceplus.com/arduino/how-to-connect-your-arduino-to-wi-fi/#:~:text=To%20hook%20everything%20up%2C%20connect%20these%20wires%3A%201,the%20ESP8266%20to%20GND%20on%20the%20Arduino%20Uno.
+
