@@ -30,6 +30,9 @@ I absolutely adore programming, electronics, and robotics! There's something tru
 <img src="https://2.bp.blogspot.com/-xWf_zFTGiHg/Vg2VVGX20LI/AAAAAAAAAz8/Gve48_08Xg0/s1600/Diagram_of_L293D.jpg"/>
 <img src ="https://udvabony.com/wp-content/uploads/2019/05/L293D-V1-Motor-Driver-Shield-Connections.jpg"/>
 
+## Heres the circuit that I made using TinkerCad
+<img height=600px width= 600px src="https://i.ibb.co/sgD89dp/Ingenious-Stantia-Albar.jpg"/>
+
 
 # References
 
