@@ -3,7 +3,6 @@
 # Arduino Car by Pedro Lorenzo Rosario
 
 # My Mission
-<img src="https://www.imagelighteditor.com/img/bg-after.jpg"/>
 
 
 
