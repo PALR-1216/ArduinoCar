@@ -6,8 +6,7 @@
 
 
 
-
-I have always liked Programing, but now I have 
+I absolutely adore programming, electronics, and robotics! There's something truly magical about being able to create and control machines, and I find it incredibly fulfilling to work with technology in this way. Whether I'm coding a new application or building a circuit,<br> I'm always eager to dive in and explore the possibilities. For me, there's nothing quite like the feeling of seeing my ideas come to life through programming and technology.
 
 # Components Needed:
 
