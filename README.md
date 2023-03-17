@@ -22,9 +22,15 @@ I absolutely adore programming, electronics, and robotics! There's something tru
 
 # How to use a L293D Motor Driver Shield
 
-1. Connect the motor driver shield to your Arduino or compatible board. Make sure that the pins on the shield are properly aligned with the headers on the board.
-2. Connect the power supply to the motor driver shield. The L293D can handle up to 36V DC, but the voltage level should match the specifications of your motor.
-3. Connect your motors to the motor driver shield. The L293D has two channels, so you can connect up to two motors. Make sure that you connect the positive and negative terminals correctly.
+1. Pin 1 and Pin 9 are the enable pins for motor driver IC. Connect them to the positive supply voltage (+Vcc) through a 10K resistor.
+2. Pin 16 is the ground (GND) pin, connect it to the negative supply voltage (GND).
+3. Pins 2, 7, 10, and 15 are the input pins for the motor driver IC. Connect them to any digital output pins of your microcontroller or any other signal source.
+4 .Pins 3, 6, 11, and 14 are the output pins for the motor driver IC. Connect them to the positive lead of the DC motor(s).
+5 .Pins 4, 5, 12, and 13 are the ground pins for the motor driver IC. Connect them to the negative lead of the DC motor(s).
+<br>
+If you are using the L293D to drive a stepper motor, you will need to connect two pairs of output pins together to form an H-bridge configuration. This will allow the current to flow in either direction through the stepper motor.
+
+Finally, connect the power supply voltage to the +Vcc and GND pins of the L293D.
 
 ### Some Diagrams to Understand the L293D Driver
 <img src="https://2.bp.blogspot.com/-xWf_zFTGiHg/Vg2VVGX20LI/AAAAAAAAAz8/Gve48_08Xg0/s1600/Diagram_of_L293D.jpg"/>
