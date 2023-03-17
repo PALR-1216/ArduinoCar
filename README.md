@@ -1,6 +1,4 @@
 
-<img height=500px src="https://i.ytimg.com/vi/lYTBI7o69Uo/maxresdefault.jpg"/>
-
 # Arduino Car by Pedro Lorenzo Rosario
 
 # My Mission
