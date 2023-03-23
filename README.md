@@ -42,6 +42,29 @@ Finally, connect the power supply voltage to the +Vcc and GND pins of the L293D.
 <h2>My First Version Arduino Car V 0.1</h2>
 <img width=600px heigth=700px src="https://i.ibb.co/Lvxdsfr/Whats-App-Image-2023-03-22-at-10-45-56-PM.jpg"/>
 
+```cpp
+// C++ code
+//
+
+int pinInput1 = 2;
+int pinInput2 = 3;
+
+
+void setup()
+{
+  pinMode(2, OUTPUT);
+  pinMode(3,OUTPUT);
+
+  
+}
+
+void loop()
+{
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+}
+```
+
 # How to use the ESP8266 Wifi Module
 
 
