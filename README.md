@@ -42,27 +42,77 @@ Finally, connect the power supply voltage to the +Vcc and GND pins of the L293D.
 <h2>My First Version Arduino Car V 0.1</h2>
 <img width=600px heigth=700px src="https://i.ibb.co/Lvxdsfr/Whats-App-Image-2023-03-22-at-10-45-56-PM.jpg"/>
 
+Perfect! I connected all wires to the board now we need to code it, I made a simple code that runs Forward, Reverse and Stop
+
 ```cpp
 // C++ code
 //
 
-int pinInput1 = 2;
-int pinInput2 = 3;
+int pinInput2 = 2;
+int pinInput3 = 3;
+int pinInput4 = 4;
+int pinInput5 = 5;
 
 
 void setup()
 {
-  pinMode(2, OUTPUT);
-  pinMode(3,OUTPUT);
-
+  Serial.begin(9600);
+  Serial.println("Type something!");
+  pinMode(pinInput2, OUTPUT);
+  pinMode(pinInput3,OUTPUT);
+  pinMode(pinInput4, OUTPUT);
+  pinMode(pinInput5,OUTPUT);
   
 }
 
 void loop()
 {
-  digitalWrite(2, HIGH);
-  digitalWrite(3, LOW);
+  //Move Forward one wheel
+  //digitalWrite(pinInput2, LOW);
+  //digitalWrite(pinInput3, HIGH);
+  
+  //Move Forward two wheel
+  //digitalWrite(pinInput4, LOW);
+  //digitalWrite(pinInput5, HIGH);
+  
+  
+   if(Serial.available()){
+        int input = Serial.read();
+        //Serial.print("You typed: " );
+     
+     if(input == 115){
+       Serial.print("pressed S");
+       digitalWrite(pinInput2, LOW);
+       digitalWrite(pinInput3, LOW);
+                    
+       digitalWrite(pinInput4, LOW);
+       digitalWrite(pinInput5, LOW);
+       
+     }
+     
+     else if(input == 98){
+       Serial.print("Pressed B");
+       
+       digitalWrite(pinInput2, HIGH);
+       digitalWrite(pinInput3, LOW);
+                    
+       digitalWrite(pinInput4, HIGH);
+       digitalWrite(pinInput5, LOW);
+       
+     }
+     
+     else if(input == 102){
+       Serial.print("Pressed F");
+       
+       digitalWrite(pinInput2, LOW);
+       digitalWrite(pinInput3, HIGH);
+                    
+       digitalWrite(pinInput4, LOW);
+       digitalWrite(pinInput5, HIGH);
+     }
+    }
 }
+
 ```
 
 # How to use the ESP8266 Wifi Module
