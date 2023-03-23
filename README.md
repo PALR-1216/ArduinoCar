@@ -115,6 +115,15 @@ void loop()
 
 ```
 
+# Problem #1
+As is stated on the law of Murphy Anything that can go wrong will go wrong. 
+<br>
+It worked fine the motor turned on, it went forward and in reverse. The only problem is that it only turned 1 motor no both.
+
+1. The wires may be loose or not connected properly 
+2. The battery does not have enough voltage to spin both wheels
+
+
 # How to use the ESP8266 Wifi Module
 
 
