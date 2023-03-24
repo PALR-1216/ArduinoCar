@@ -136,4 +136,6 @@ It worked fine the motor turned on, it went forward and in reverse. The only pro
 
 [How to connect wifi Module to the Arduino](https://www.deviceplus.com/arduino/how-to-connect-your-arduino-to-wi-fi/#:~:text=To%20hook%20everything%20up%2C%20connect%20these%20wires%3A%201,the%20ESP8266%20to%20GND%20on%20the%20Arduino%20Uno.)
 <br>
+[How to use a L293D](https://lastminuteengineers.com/l293d-dc-motor-arduino-tutorial/)
+<br>
 [Lcd to diplay Battery Voltage](https://www.instructables.com/Displaying-Battery-Life-on-a-Liquid-Crystal-Displa/)
