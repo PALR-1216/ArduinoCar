@@ -123,6 +123,9 @@ It worked fine the motor turned on, it went forward and in reverse. The only pro
 1. The wires may be loose or not connected properly 
 2. The battery does not have enough voltage to spin both wheels
 
+3. Theres something wrong in the code
+
+
 
 # How to use the ESP8266 Wifi Module
 
