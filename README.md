@@ -130,8 +130,9 @@ It worked fine the motor turned on, it went forward and in reverse. The only pro
 ## ----------------------------------
 ITS ALIVEE!!!, now both wheels spin, the only change I did was taking out the 9v Battery for external power,
 it Works with the 5V of the arduino but it runs at a lower RPM, I Hope this does not blow up in my face.
+## Solucion to problem #1
+## ----------------------------------
 
-## ---------
 Solved problem #, the reason only 1 motor was spinning it was an error in the code,I put the number of the wrong pin in the arduino, so it wasen't enabiling the second motor 
 <br><br>
 
