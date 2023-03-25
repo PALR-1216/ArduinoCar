@@ -130,6 +130,88 @@ It worked fine the motor turned on, it went forward and in reverse. The only pro
 ## ----------------------------------
 ITS ALIVEE!!!, now both wheels spin, the only change I did was taking out the 9v Battery for external power,
 it Works with the 5V of the arduino but it runs at a lower RPM, I Hope this does not blow up in my face.
+<br><br>
+
+Heres the Code with the IR Reciever
+
+```cpp
+
+//Define input and PWM pins
+#define IN1 2
+#define IN2 3
+#define IN3 4
+#define IN4 5
+#define ENA 9
+#define ENB 10
+#include <IRremote.h>
+
+#define IRReceiver 11
+
+
+void setup() {
+//Set those pins as output pins
+ IrReceiver.begin(IRReceiver);
+  Serial.begin(9600);
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+  pinMode(ENA, OUTPUT);
+  pinMode(ENB, OUTPUT);
+  pinMode(IRReceiver, INPUT);
+}
+
+void loop() {
+
+ if (IrReceiver.decode()) {
+    IrReceiver.resume();
+    int command = IrReceiver.decodedIRData.command;
+    Serial.println(command);
+    switch(command){
+      case 12:
+      forward();
+      break;
+
+      case 22:
+      Stop();
+      break;
+
+      case 24:
+      backward();
+    }
+    }
+}
+
+void forward() {
+  analogWrite(ENA, 255);
+  analogWrite(ENB, 255);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+}
+void backward() {
+  analogWrite(ENA, 255);
+  analogWrite(ENB, 255);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
+}
+void Stop() {
+  analogWrite(ENA, 0);
+  analogWrite(ENB, 0);
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+
+
+
+```
+
+
 [Video of my Arduino Car V 0.2](https://youtube.com/shorts/fG3_x3Uz1w8?feature=share)
 
 # How to use the ESP8266 Wifi Module
