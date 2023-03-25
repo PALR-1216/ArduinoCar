@@ -127,6 +127,10 @@ It worked fine the motor turned on, it went forward and in reverse. The only pro
 
 [Video of my Arduino Car V 0.1](https://youtube.com/shorts/DFwtnSy7x_s?feature=share)
 
+## ----------------------------------
+ITS ALIVEE!!!, now both wheels spin, the only change I did was taking out the 9v Battery for external power,
+it Works with the 5V of the arduino but it runs at a lower RPM, I Hope this does not blow up in my face.
+
 # How to use the ESP8266 Wifi Module
 
 
