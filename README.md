@@ -218,6 +218,12 @@ void Stop() {
 
 [Video of my Arduino Car V 0.2](https://youtube.com/shorts/fG3_x3Uz1w8?feature=share)
 
+#### I made some changes to the body, is still a work in progress
+<img src="https://i.ibb.co/P13B9Wg/3049eb3f-442e-4156-aa34-0a1a4927044f.jpg"/>
+<img src="https://i.ibb.co/8z0Cyzx/3fa43499-5a2a-48b7-a3fb-8a60c352b654.jpg"/>
+
+
+
 # How to use the ESP8266 Wifi Module
 
 
