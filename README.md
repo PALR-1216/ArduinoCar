@@ -222,6 +222,9 @@ void Stop() {
 <img src="https://i.ibb.co/P13B9Wg/3049eb3f-442e-4156-aa34-0a1a4927044f.jpg"/>
 <img src="https://i.ibb.co/8z0Cyzx/3fa43499-5a2a-48b7-a3fb-8a60c352b654.jpg"/>
 
+# I bought the wrong l293D 
+
+I bought the wrong drivers I needed one with atleaste 8 channels, but I have 5pcs of 4 channels now i have to find a wat to connect 2 4 channels l293D together
 
 
 # How to use the ESP8266 Wifi Module
