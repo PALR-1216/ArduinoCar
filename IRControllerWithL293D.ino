@@ -41,6 +41,15 @@ void loop() {
 
       case 24:
       backward();
+      break;
+
+      case 8:
+      TurnLeft();
+      break;
+
+      case 28:
+      TurnRight();
+      break;
     }
     }
 }
@@ -50,17 +59,50 @@ void forward() {
   analogWrite(ENB, 255);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
+//second motor is moving in diferent direction Dont know why
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
 }
 void backward() {
   analogWrite(ENA, 255);
   analogWrite(ENB, 255);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
+//same here motor is moving in diferent direction 
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
 }
+
+
+
+void TurnLeft() {
+
+	analogWrite(ENB,255);
+	analogWrite(ENA,255);
+
+	digitalWrite(IN1, LOW);
+	digitalWrite(IN2, HIGH);
+
+	digitalWrite(IN3, LOW);
+	digitalWrite(IN4, HIGH);
+}
+
+
+void TurnRight() {
+  analogWrite(ENB,255);
+	analogWrite(ENA,255);
+
+	digitalWrite(IN1, LOW);
+	digitalWrite(IN2, HIGH);
+
+  digitalWrite(IN3, HIGH);   
+  digitalWrite(IN4, LOW);  
+
+
+
+
+}
+
 void Stop() {
   analogWrite(ENA, 0);
   analogWrite(ENB, 0);
