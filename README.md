@@ -242,3 +242,4 @@ I bought the wrong drivers I needed one with atleaste 8 channels, but I have 5pc
 [How to use a L293D](https://lastminuteengineers.com/l293d-dc-motor-arduino-tutorial/)
 <br>
 [Lcd to diplay Battery Voltage](https://www.instructables.com/Displaying-Battery-Life-on-a-Liquid-Crystal-Displa/)
+[use the arduino with vin power suply](https://chipwired.com/can-arduino-run-without-computer/#:~:text=To%20power%20Arduino%20boards%20without%20a%20computer%20you,the%20wrong%20power%20supply%20for%20your%20specific%20project)
